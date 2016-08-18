@@ -4,3 +4,5 @@
   |--> add features
 2. Add data input checking.
 3. when deleting a client also delete the jobs.
+4. Add the option to remove or edit colors.
+5. Add setings file.

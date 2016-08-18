@@ -4,7 +4,7 @@
 # Description :       CM.py is a script that manages costumer information
 #               and previous transactions and interactions through a command
 #               line interface using MySQL databases.
-# Read LICENSE.txt
+# Read licence.txt
 # Copyright (c) 2016 Lykourgos Tanious
 
 
@@ -12,6 +12,7 @@
 # to support ansi terminal coloring in windows
 import sqlite3 as sqlite
 import colorama
+import sys
 from tabulate import tabulate
 colorama.init()
 
@@ -295,7 +296,7 @@ class CMD:
                 con.close()
                 print(colorama.Fore.RED + colorama.Style.BRIGHT + "Connection closed!")
             print(colorama.Fore.RED + colorama.Style.BRIGHT + "Goodbye! ")
-            exit(0)
+            sys.exit(0)
         elif inp == "banner":
             self.pbanner()
         elif inp == "help":

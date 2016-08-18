@@ -1,0 +1,6 @@
+1. Update readme.
+  |--> add dependencies
+  |--> add description
+  |--> add features
+2. Add data input checking.
+3. when deleting a client also delete the jobs.
